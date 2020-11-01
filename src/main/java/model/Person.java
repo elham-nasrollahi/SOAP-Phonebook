@@ -11,9 +11,6 @@ public class Person {
     private String phonenumber;
 
     public Person() {
-        /*JAXB does XML to java object conversion
-        which is why it needs a no-arg constructor
-        it'll need to instantiate the object first*/
     }
 
     public Person(String firstname, String lastname, String phonenumber) {
