@@ -8,15 +8,13 @@ import javax.jws.WebService;
 import java.util.List;
 
 @WebService(
-        name = "PhoneBook" //portType name= PhoneBookSEI --> "PhoneBook"
-
-        , targetNamespace = "http://www.phonebook.com"
+        name = "PhoneBook" , targetNamespace = "http://www.phonebook.com"
 )
 
 public interface PhoneBookSEI {
 
     @WebMethod
-    @WebResult(name = "Person") //<return> in xml--> <Person>
+    @WebResult(name = "Person")
     public List<Person> getAllPerson();
 
     @WebMethod
