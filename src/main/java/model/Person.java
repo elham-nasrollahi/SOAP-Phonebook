@@ -4,8 +4,7 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
-@XmlRootElement(name = "Person") //it means this name is root in xml
-//@XmlType(propOrder = {"firstname","phonenumber","lastname"})
+@XmlRootElement(name = "Person") 
 public class Person {
     private String firstname;
     private String lastname;
