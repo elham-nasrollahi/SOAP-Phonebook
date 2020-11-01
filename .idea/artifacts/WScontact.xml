@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="WScontact">
+    <output-path>$PROJECT_DIR$/out/artifacts/WScontact</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="phoneB/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="phoneB" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="JAX-WS-Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../java-install/ojdbc8-19.3.0.0.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
